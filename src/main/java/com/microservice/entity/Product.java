@@ -2,6 +2,7 @@ package com.microservice.entity;
 
 import java.util.Date;
 
+
 public class Product {
 
 	private Long id;
@@ -9,6 +10,17 @@ public class Product {
 	private Double qty;
 	private Date createAt;
 	
+	/*Este atributo es para determinar el puerto 
+	de conexion que esta usando el balanceador de carga
+	*/
+	private Integer port;
+	
+	public Integer getPort() {
+		return port;
+	}
+	public void setPort(Integer port) {
+		this.port = port;
+	}
 	public Long getId() {
 		return id;
 	}
