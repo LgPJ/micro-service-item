@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import com.microservice.entity.Product;
+import com.microservice.commons.entity.Product;
 
 //Indicamos que es un cliente Feing, el nombre del microservicio a conectar y la uri del mismo
 @FeignClient(name = "product")

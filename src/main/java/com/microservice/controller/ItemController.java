@@ -24,7 +24,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.microservice.entity.Item;
-import com.microservice.entity.Product;
+import com.microservice.commons.entity.Product;
 import com.microservice.service.ItemServiceImpl;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 

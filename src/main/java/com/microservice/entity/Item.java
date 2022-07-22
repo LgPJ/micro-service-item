@@ -1,5 +1,7 @@
 package com.microservice.entity;
 
+import com.microservice.commons.entity.Product;
+
 public class Item {
 
 	private Product product;
